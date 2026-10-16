@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-app">
+    <h1>
+        <img src="assets/title/village-title.png" alt="My Little To-Do Village">
+    </h1>
+
+    <div class="todo-controls">
+
+        <input type="text" id="todoInput" placeholder="What needs to be done?">
+
+    <div class="category-dropdown">
+        <button id="categoryButton">Home</button>
+
+        <div id="categoryOptions" class="category-options">
+            <button data-category="home">Home</button>
+            <button data-category="cleaning">Cleaning</button>
+            <button data-category="work">Work</button>
+            <button data-category="garden">Garden</button>
+        </div>
+    </div>
+
+        <button id="addTodo">
+            <img src="assets/buttons/add-heart.png" alt="Add todo">
+        </button>
+    </div>
+
+    <div class="todo-filters">
+        <button id="showAll">🌸 All</button>
+        <button id="showActive">🌱 Active</button>
+        <button id="showCompleted">✨ Completed</button>
+    </div>
+
+    <div class="category-filters">
+        <button class="all-catergory-filter" data-category="all">All</button>
+        <button class="home-filter" data-category="home">Home</button>
+        <button class="cleaning-filter" data-category="cleaning">Cleaning</button>
+        <button class="work-filter" data-category="work">Work</button>
+        <button class="garden-filter" data-category="garden">Garden</button>
+    </div>
+
+    <ul id="todoList"></ul>
+
+    <button id="clearCompleted">Clear Completed</button>
+
+    <p>Completed: <span id="completedCount">0</span></p>
+    <p>Remaining: <span id="remainingCount">0</span></p>
+    <p>Progress: <span id="progressDisplay">0%</span></p>
+
+    <div class="progress-bar">
+    <div id="progressFill"></div>
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
