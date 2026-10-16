@@ -131,7 +131,7 @@ h1 {
 }
 
 #todoInput {
-    width: 80%;
+    width: 85%;
     max-width: 400px;
     padding: 10px 14px;
     border: 2px solid #b8a9d9;
@@ -198,10 +198,11 @@ h1 {
 
 .category-dropdown {
     position: relative;
-    width: 100%;
+    width: 75%;
     max-width: 220px;
     margin: 18px auto;
     z-index: 10;
+    box-sizing: border-box;
 }
 
 #categoryButton {
@@ -278,11 +279,13 @@ h1 {
     font-family: "Nunito", sans-serif;
     flex: 1;
     min-width: 0;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
 }
 
-todo-text.completed {
+.todo-text.completed {
     text-decoration: line-through;
     opacity: 0.6;
 }
@@ -394,26 +397,57 @@ h1 img {
     transform: translateY(1px);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
     #todoList li {
-        padding: 10px 12px;
-        gap: 8px;
+        padding: 8px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: 35px 1fr 35px 35px;
     }
 
     #todoList li button {
-        width: 42px;
-        height: 42px;
+        width: 35px;
+        height: 35px;
         padding: 0;
     }
 
     .animal {
         margin-right: 4px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .todo-text {
         font-size: 0.95rem;
+        text-align: left;
+        grid-column: 2 / 4;
+        padding-left: 6px;
+    }
+
+    .category-badge img {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .animal img {
+    width: 40px;
+    height: 40px;
+    }
+
+    #todoList li button:first-of-type {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    #todoList li button:last-of-type {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    #todoList li .category-badge {
+    grid-column: 4;
+    grid-row: 1;
     }
 }
 
