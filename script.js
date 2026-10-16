@@ -307,6 +307,7 @@ function renderTodos() {
             editInput.classList.add("edit-input");
             editInput.value = todo.text;
             todoItem.replaceChild(editInput, todoTextSpan);
+            editInput.focus();
 
         editInput.addEventListener("keydown", function(event) {
 
@@ -326,6 +327,10 @@ function renderTodos() {
                 renderTodos();
             }
 
+        });
+
+        editInput.addEventListener("focusout", function() {
+            renderTodos();
         });
 
         });
