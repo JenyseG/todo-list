@@ -2,6 +2,8 @@
 
 <img src="screenshots/todo-app-main.png" alt="My Little To-Do Village application" width="500">
 
+<img src="screenshots/todo-app-editing.png" alt="Editing a task in My Little To-Do Village" width="500">
+
 A cozy, interactive task management application built with HTML, CSS, and JavaScript.
 
 ## Live Demo
