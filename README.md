@@ -1,5 +1,7 @@
 # My Little To-Do Village 🌱
 
+![My Little To-Do Village](screenshots/todo-app-main.png)
+
 A cozy, interactive task management application built with HTML, CSS, and JavaScript.
 
 ## Live Demo
