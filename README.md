@@ -1,23 +1,43 @@
-# Todo List App
+# My Little To-Do Village 🌱
 
-A simple, interactive todo list built with HTML, CSS, and JavaScript.
+A cozy, interactive task management application built with HTML, CSS, and JavaScript.
+
+## Live Demo
+
+[Try My Little To-Do Village](https://jenyseg.github.io/todo-list/)
 
 ## Features
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
+* Add new tasks
+* Edit existing tasks
+* Delete tasks
+* Mark tasks as completed
+* Organize tasks into categories
+* Filter tasks by completion status
+* Track task progress
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
-## What I Learned
+## Concepts Practiced
 
-This project helped me practice JavaScript fundamentals, including DOM manipulation, event listeners, arrays, and functions.
+* DOM manipulation
+* Event listeners and event handling
+* Arrays and objects
+* Functions
+* Dynamic rendering
+* Managing application state
 
-## Live Demo
+## About This Project
+
+This project was created as a hands-on exercise in front-end web development. It helped me strengthen my JavaScript fundamentals while building an interactive application with a focus on usability and visual design.
+
+## Developer
+
+Created by Jenyse Gonzales.
+
 
 [Try the Todo List App](https://jenyseg.github.io/todo-list/)
