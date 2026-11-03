@@ -1,6 +1,6 @@
 # My Little To-Do Village 🌱
 
-![My Little To-Do Village](screenshots/todo-app-main.png)
+<img src="screenshots/todo-app-main.png" alt="My Little To-Do Village application" width="500">
 
 A cozy, interactive task management application built with HTML, CSS, and JavaScript.
 
